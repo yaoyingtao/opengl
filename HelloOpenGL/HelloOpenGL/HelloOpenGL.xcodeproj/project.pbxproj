@@ -22,6 +22,8 @@
 		EC01B2771F55401900136B35 /* CC3GLMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = EC01B26F1F55401900136B35 /* CC3GLMatrix.m */; };
 		EC01B2781F55401900136B35 /* CC3Kazmath.c in Sources */ = {isa = PBXBuildFile; fileRef = EC01B2701F55401900136B35 /* CC3Kazmath.c */; };
 		EC01B2791F55401900136B35 /* CC3Math.m in Sources */ = {isa = PBXBuildFile; fileRef = EC01B2741F55401900136B35 /* CC3Math.m */; };
+		EC01B27D1F5652DB00136B35 /* item_powerup_fish.png in Resources */ = {isa = PBXBuildFile; fileRef = EC01B27B1F5652DB00136B35 /* item_powerup_fish.png */; };
+		EC01B27E1F5652DB00136B35 /* tile_floor.png in Resources */ = {isa = PBXBuildFile; fileRef = EC01B27C1F5652DB00136B35 /* tile_floor.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		EC01B2731F55401900136B35 /* CC3Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Math.h; sourceTree = "<group>"; };
 		EC01B2741F55401900136B35 /* CC3Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Math.m; sourceTree = "<group>"; };
 		EC01B2751F55401900136B35 /* ccTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccTypes.h; sourceTree = "<group>"; };
+		EC01B27B1F5652DB00136B35 /* item_powerup_fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item_powerup_fish.png; sourceTree = "<group>"; };
+		EC01B27C1F5652DB00136B35 /* tile_floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_floor.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				EC01B26B1F55401900136B35 /* Cocos3DMathLib */,
+				EC01B27A1F5652DB00136B35 /* Art */,
 				EC01B2601F550DFB00136B35 /* OpenGLView.m */,
 				EC01B25F1F550DFB00136B35 /* OpenGLView.h */,
 				EC01B24B1F550DCA00136B35 /* AppDelegate.h */,
@@ -136,6 +141,15 @@
 				EC01B2751F55401900136B35 /* ccTypes.h */,
 			);
 			path = Cocos3DMathLib;
+			sourceTree = "<group>";
+		};
+		EC01B27A1F5652DB00136B35 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				EC01B27B1F5652DB00136B35 /* item_powerup_fish.png */,
+				EC01B27C1F5652DB00136B35 /* tile_floor.png */,
+			);
+			path = Art;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,11 +210,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC01B27E1F5652DB00136B35 /* tile_floor.png in Resources */,
 				EC01B2581F550DCA00136B35 /* LaunchScreen.storyboard in Resources */,
 				EC01B2681F5519C100136B35 /* SimpleVertex.glsl in Resources */,
 				EC01B2551F550DCA00136B35 /* Assets.xcassets in Resources */,
 				EC01B2531F550DCA00136B35 /* Main.storyboard in Resources */,
 				EC01B26A1F551BF200136B35 /* SimpleFragment.glsl in Resources */,
+				EC01B27D1F5652DB00136B35 /* item_powerup_fish.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +393,7 @@
 				EC01B25E1F550DCA00136B35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
